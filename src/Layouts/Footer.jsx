@@ -1,15 +1,16 @@
 import React from 'react'
+import Brand from "../Assets/Images/Brand.png"
 
 const Footer = () => {
     return (
-        <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <footer className="bg-white dark:bg-gray rounded-lg shadow m-4">
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <div>
-                            <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                                <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-                                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Kaalani</span>
+                            <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                                <img src={Brand} className="h-8" alt="Kaalani Logo" />
+                                {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Kaalani</span> */}
                             </a>
                         </div>
 
@@ -23,7 +24,7 @@ const Footer = () => {
                                     href="/"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-white transition hover:opacity-75"
+                                    className="text-black transition hover:opacity-75"
                                 >
                                     <span className="sr-only">Facebook</span>
 
@@ -42,7 +43,7 @@ const Footer = () => {
                                     href="/"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-white transition hover:opacity-75"
+                                    className="text-black transition hover:opacity-75"
                                 >
                                     <span className="sr-only">Instagram</span>
 
@@ -61,7 +62,7 @@ const Footer = () => {
                                     href="/"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-white transition hover:opacity-75"
+                                    className="text-black transition hover:opacity-75"
                                 >
                                     <span className="sr-only">Twitter</span>
 
@@ -78,7 +79,7 @@ const Footer = () => {
                                     href="/"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-white transition hover:opacity-75"
+                                    className="text-black transition hover:opacity-75"
                                 >
                                     <span className="sr-only">GitHub</span>
 
@@ -97,7 +98,7 @@ const Footer = () => {
                                     href="/"
                                     rel="noreferrer"
                                     target="_blank"
-                                    className="text-white transition hover:opacity-75"
+                                    className="text-black transition hover:opacity-75"
                                 >
                                     <span className="sr-only">Dribbble</span>
 
@@ -115,92 +116,117 @@ const Footer = () => {
 
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
                         <div>
-                            <p className="font-medium text-teal-600">Services</p>
+                            <p className="font-medium text-teal-600">COLLECTIONS</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> 1on1 Coaching </a>
+                                    <a href="\men" className="text-black transition hover:opacity-75"> MEN SHOES </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Company Review </a>
+                                    <a href="\women" className="text-black transition hover:opacity-75"> WOMEN SHOES </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Accounts Review </a>
+                                    <a href="\kids" className="text-black transition hover:opacity-75"> KIDS SHOES </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> HR Consulting </a>
+                                    <a href="\accessories" className="text-black transition hover:opacity-75"> ACCESSORIES </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> SEO Optimisation </a>
+                                    <a href="\bags" className="text-black transition hover:opacity-75"> BAGS </a>
+                                </li>
+
+                                <li>
+                                    <a href="\sales" className="text-black transition hover:opacity-75"> SHOES SALES </a>
                                 </li>
                             </ul>
                         </div>
 
                         <div>
-                            <p className="font-medium text-teal-600">Company</p>
+                            <p className="font-medium text-teal-600">CUSTOMER</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> About </a>
+                                    <a href="\contactus" className="text-black transition hover:opacity-75"> CONTACT US </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Meet the Team </a>
+                                    <a href="\shoecare" className="text-black transition hover:opacity-75"> SHOE CARE TIPS </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Accounts Review </a>
+                                    <a href="\footcare" className="text-black transition hover:opacity-75"> FOOT CARE TIPS </a>
+                                </li>
+
+                                <li>
+                                    <a href="\guide" className="text-black transition hover:opacity-75"> BUYING GUIDE </a>
+                                </li>
+
+                                <li>
+                                    <a href="\blog" className="text-black transition hover:opacity-75"> BLOG </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p className="font-medium text-teal-600">KNOW US</p>
+
+                            <ul className="mt-6 space-y-4 text-sm">
+                                <li>
+                                    <a href="\about" className="text-black transition hover:opacity-75"> ABOUT US </a>
+                                </li>
+
+                                <li>
+                                    <a href="\careers" className="text-black transition hover:opacity-75"> CAREERS </a>
+                                </li>
+
+                                <li>
+                                    <a href="\faq" className="text-black transition hover:opacity-75"> FAQ's </a>
+                                </li>
+
+                                <li>
+                                    <a href="\storelocator" className="text-black transition hover:opacity-75"> STORE LOCATOR </a>
+                                </li>
+
+                                <li>
+                                    <a href="\sitemap" className="text-black transition hover:opacity-75"> SITEMAP </a>
                                 </li>
                             </ul>
                         </div>
 
                         <div>
-                            <p className="font-medium text-teal-600">Helpful Links</p>
+                            <p className="font-medium text-teal-600">KAALANI</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Contact </a>
+                                    <a href="\orders" className="text-black transition hover:opacity-75"> ORDERS </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> FAQs </a>
+                                    <a href="\wishlist" className="text-black transition hover:opacity-75"> WISHLIST </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Live Chat </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <p className="font-medium text-teal-600">Legal</p>
-
-                            <ul className="mt-6 space-y-4 text-sm">
-                                <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Accessibility </a>
+                                    <a href="\refund" className="text-black transition hover:opacity-75"> Refund Policy </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Returns Policy </a>
+                                    <a href="\trackorders" className="text-black transition hover:opacity-75"> TRACK ORDERS </a>
                                 </li>
 
                                 <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Refund Policy </a>
-                                </li>
-
-                                <li>
-                                    <a href="..." className="text-white transition hover:opacity-75"> Hiring Statistics </a>
+                                    <a href="\returns" className="text-black transition hover:opacity-75"> SHIPPING & RETURNS </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <p className="text-md text-white ">&copy; 2024. Kaalani. All rights reserved.</p>
+                <p className="text-md text-BLACK text-center ">Kaalani &copy; 2024. All rights reserved.</p>
             </div>
         </footer>
     )
