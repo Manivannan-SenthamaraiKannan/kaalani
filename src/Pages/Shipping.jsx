@@ -2,10 +2,10 @@ import React from 'react'
 
 const Shipping = () => {
     return (
-        <div className="bg-white dark:bg-gray-900 py-10 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
+        <div className="bg-white  py-10 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
             <p className='text-left text-black py-4'>Breadcrumbs Section</p>
-            <h2 className='text-left text-black underline underline-offset-1'>SHIPPING / RETURN / REFUND POLICY</h2>
-            <div className='bg-white dark:bg-gray-900 py-2'>
+            <h2 className='text-left text-black underline underline-offset-1'><strong>SHIPPING / RETURN / REFUND POLICY</strong></h2>
+            <div className='bg-white py-2'>
                 <h3 className='text-left text-black'><strong>Shipping Policy</strong></h3>
                 <ul className="list-disc px-4 py-2">
                     <li className='text-justify'>or all confirmed orders received, the order will be dispatched in 2 to 3 business days. The delivery timeline may vary depending on the time required by courier partner.</li>
@@ -14,7 +14,7 @@ const Shipping = () => {
                     <li className='text-justify'>If you accept the delivery and are not satisfied with your order upon delivery, you can raise a Return request.</li>
                 </ul>
             </div>
-            <div className='bg-white dark:bg-gray-900 py-3'>
+            <div className='bg-white py-3'>
                 <h3 className='text-left text-black'><strong>Return Policy</strong></h3>
                 <ul className="list-disc px-4 py-2">
                     <li className='text-justify'>Within 15 days of receipt, only unused goods will be accepted for refund.</li>
@@ -23,7 +23,7 @@ const Shipping = () => {
                     <li className='text-justify'>To raise a return request, please log-in to the website and raise a return request from ‘My Orders’ section.</li>
                 </ul>
             </div>
-            <div className='bg-white dark:bg-gray-900 py-3'>
+            <div className='bg-white py-3'>
                 <h3 className='text-left text-black'><strong>Refund Policy</strong></h3>
                 <ul className="list-disc px-4 py-2">
                     <li className='text-justify'>In case, you have cancelled an order within two hours of placing it or before it has been moved to procurement - you will be issued a full refund within 3-5 business days of cancellation of order.</li>

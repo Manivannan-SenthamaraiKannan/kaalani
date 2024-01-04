@@ -1,15 +1,21 @@
 import Footer from './Layouts/Footer.jsx';
 import Navbar from './Layouts/Navbar.jsx'
 import Shipping from './Pages/Shipping.jsx'
-// import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Terms from './Pages/Terms.jsx';
 
 function App() {
   return (
-    <div className='container mx-auto'>
-      <Navbar />
-      <Shipping />
-      <Footer />
-    </div>
+    <Router>
+      <div className='container mx-auto'>
+        <Navbar />
+        <Routes>
+          <Route path='/returns' element={<Shipping />} />
+          <Route path='/term' element={<Terms />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   )
 }
 

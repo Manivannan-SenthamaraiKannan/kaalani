@@ -1,9 +1,10 @@
 import React from 'react'
 import Brand from "../Assets/Images/Brand.png"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray rounded-lg shadow m-4">
+        <footer className="bg-white dark:bg-gray m-4">
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
@@ -14,7 +15,7 @@ const Footer = () => {
                             </a>
                         </div>
 
-                        <p className="mt-4 max-w-xs dark:text-white">
+                        <p className="mt-4 max-w-xs">
                             Kaalani is a Modern Indian Lifestyle Brand for Bags, Wallets & Footwear.
                         </p>
 
@@ -120,27 +121,27 @@ const Footer = () => {
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="\men" className="text-black transition hover:opacity-75"> MEN SHOES </a>
+                                    <a href="/men" className="text-black transition hover:opacity-75"> MEN SHOES </a>
                                 </li>
 
                                 <li>
-                                    <a href="\women" className="text-black transition hover:opacity-75"> WOMEN SHOES </a>
+                                    <a href="/women" className="text-black transition hover:opacity-75"> WOMEN SHOES </a>
                                 </li>
 
                                 <li>
-                                    <a href="\kids" className="text-black transition hover:opacity-75"> KIDS SHOES </a>
+                                    <a href="/kids" className="text-black transition hover:opacity-75"> KIDS SHOES </a>
                                 </li>
 
                                 <li>
-                                    <a href="\accessories" className="text-black transition hover:opacity-75"> ACCESSORIES </a>
+                                    <a href="/accessories" className="text-black transition hover:opacity-75"> ACCESSORIES </a>
                                 </li>
 
                                 <li>
-                                    <a href="\bags" className="text-black transition hover:opacity-75"> BAGS </a>
+                                    <a href="/bags" className="text-black transition hover:opacity-75"> BAGS </a>
                                 </li>
 
                                 <li>
-                                    <a href="\sales" className="text-black transition hover:opacity-75"> SHOES SALES </a>
+                                    <a href="/sales" className="text-black transition hover:opacity-75"> SHOES SALES </a>
                                 </li>
                             </ul>
                         </div>
@@ -150,23 +151,23 @@ const Footer = () => {
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="\contactus" className="text-black transition hover:opacity-75"> CONTACT US </a>
+                                    <a href="/contactus" className="text-black transition hover:opacity-75"> CONTACT US </a>
                                 </li>
 
                                 <li>
-                                    <a href="\shoecare" className="text-black transition hover:opacity-75"> SHOE CARE TIPS </a>
+                                    <a href="/shoecare" className="text-black transition hover:opacity-75"> SHOE CARE TIPS </a>
                                 </li>
 
                                 <li>
-                                    <a href="\footcare" className="text-black transition hover:opacity-75"> FOOT CARE TIPS </a>
+                                    <a href="/footcare" className="text-black transition hover:opacity-75"> FOOT CARE TIPS </a>
                                 </li>
 
                                 <li>
-                                    <a href="\guide" className="text-black transition hover:opacity-75"> BUYING GUIDE </a>
+                                    <a href="/guide" className="text-black transition hover:opacity-75"> BUYING GUIDE </a>
                                 </li>
 
                                 <li>
-                                    <a href="\blog" className="text-black transition hover:opacity-75"> BLOG </a>
+                                    <a href="/blog" className="text-black transition hover:opacity-75"> BLOG </a>
                                 </li>
 
                             </ul>
@@ -177,23 +178,23 @@ const Footer = () => {
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="\about" className="text-black transition hover:opacity-75"> ABOUT US </a>
+                                    <a href="/about" className="text-black transition hover:opacity-75"> ABOUT US </a>
                                 </li>
 
                                 <li>
-                                    <a href="\careers" className="text-black transition hover:opacity-75"> CAREERS </a>
+                                    <a href="/careers" className="text-black transition hover:opacity-75"> CAREERS </a>
                                 </li>
 
                                 <li>
-                                    <a href="\faq" className="text-black transition hover:opacity-75"> FAQ's </a>
+                                    <a href="/faq" className="text-black transition hover:opacity-75"> FAQ's </a>
                                 </li>
 
                                 <li>
-                                    <a href="\storelocator" className="text-black transition hover:opacity-75"> STORE LOCATOR </a>
+                                    <a href="/storelocator" className="text-black transition hover:opacity-75"> STORE LOCATOR </a>
                                 </li>
 
                                 <li>
-                                    <a href="\sitemap" className="text-black transition hover:opacity-75"> SITEMAP </a>
+                                    <a href="/sitemap" className="text-black transition hover:opacity-75"> SITEMAP </a>
                                 </li>
                             </ul>
                         </div>
@@ -203,23 +204,23 @@ const Footer = () => {
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="\orders" className="text-black transition hover:opacity-75"> ORDERS </a>
+                                    <a href="/orders" className="text-black transition hover:opacity-75"> ORDERS </a>
                                 </li>
 
                                 <li>
-                                    <a href="\wishlist" className="text-black transition hover:opacity-75"> WISHLIST </a>
+                                    <a href="/wishlist" className="text-black transition hover:opacity-75"> WISHLIST </a>
                                 </li>
 
                                 <li>
-                                    <a href="\refund" className="text-black transition hover:opacity-75"> Refund Policy </a>
+                                    <a href="/term" className="text-black transition hover:opacity-75"> TERMS & CONDITIONS </a>
                                 </li>
 
                                 <li>
-                                    <a href="\trackorders" className="text-black transition hover:opacity-75"> TRACK ORDERS </a>
+                                    <a href="/trackorders" className="text-black transition hover:opacity-75"> TRACK ORDERS </a>
                                 </li>
 
                                 <li>
-                                    <a href="\returns" className="text-black transition hover:opacity-75"> SHIPPING & RETURNS </a>
+                                    <Link to="/returns" className="text-black transition hover:opacity-75"> SHIPPING & RETURNS </Link>
                                 </li>
                             </ul>
                         </div>
